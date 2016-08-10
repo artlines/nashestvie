@@ -1,0 +1,183 @@
+@media (max-width: 1600px){
+	.pole_dance{
+	 &--hover{
+   		background-position: 10px 50px;
+	}
+}
+}
+@media (min-width: 840px) and (max-width:1400px){
+	.dance_way__pole_dance{
+		width: 75%;
+	}
+}
+
+@media (min-width: 840px){
+	.mdl-cell--6-col{
+		width: 50%;
+	}
+	.mdl-cell--4-col{
+		width: 33.3333333333%;
+	}
+	.mdl-grid{
+		width: 100%;
+	}
+	.mdl-cell--12-col{
+		width: 100%;
+	}
+}
+	@media (max-width: 839px) and (min-width: 480px){
+		.secondary-photo{
+			width: 50%;
+		}
+		.primary-photo,.secondary-photos{
+			width: 100%;
+		}
+		.mdl-cell--4-col, .mdl-cell--4-col-tablet.mdl-cell--4-col-tablet {
+		    width: calc(50%);
+		}
+		.mdl-cell--8-col, .mdl-cell--8-col-tablet.mdl-cell--8-col-tablet {
+		    width: calc(100%);
+		}
+		.mdl-cell--12-col-tablet.mdl-cell--12-col-tablet {
+		    width: calc(100%);
+		}
+	}
+	@media (max-width: 839px){
+		.guru{
+			position: relative;
+		}
+		.guru__description{
+			opacity: .95;
+			z-index: 2;
+			min-height: 100vh;
+			left: 0;
+			padding-top: 10%;
+    		padding-left: 4.5%;
+		}
+		.guru__photo {
+			position: fixed;
+			top: 0;
+			z-index: 1;
+		}
+		.contacts_info .phone, .contacts_info .email{
+			width: 100% !important;
+			float: none;
+			margin-left: 0;
+		}
+		.address{
+			font-size: 1.2em;
+			line-height: 1.2;
+			padding-bottom: 5%;
+		}
+		.contacts__back{
+			padding-top: 10%;
+		}
+		.games-item__primary, .games-item__secondary{
+			height: 100vh;
+		}
+		.games__description{
+			padding: 12% 4%;
+			text-align: center;
+		}
+		.games-item__primary{
+			margin-right: 0;
+		}
+		.games-item__secondary {
+			padding-top: 30px;
+		}
+		.mdl-layout__drawer{
+			overflow-y: scroll;
+		}
+		.copyright{
+			padding: 10px 0;
+		}
+		.gm-style .gm-style-iw {
+		    font-size: 14px;
+		    padding: 6px 0;
+		}
+		.shedule_item{
+			padding: 10% 14% 0% 2.8%;
+		}
+		.contacts_info{
+			padding: 3% 5%;
+		}
+		.close__header{
+			display: block;
+		}
+	}
+@media handheld and (orientation: landscape), handheld and (max-width: 839px) {
+	.dance_way__pole_dance{
+		background-size: contain;
+		top: 10%;
+	}
+	.drawer-header{
+		display: none;
+	}
+	.drawer .navigation{
+		margin-top: 20px;
+	}
+	.gm-style-iw div{
+		min-height: 50px !important;
+	}
+	#sb_instagram{
+		display: inline-block;
+	}
+	#sb_instagram .sb_instagram_header, #sb_instagram #sbi_images{
+		padding:5px !important;
+	}
+	.games-item,.games-item__secondary-item {
+		background-size: 100% 100% !important;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.games-item__primary, .games-item__secondary {
+	    height: 100vw;
+	}
+	.games-item__secondary-item {
+		height: 55vw;
+	}
+}
+	@media (max-width: 480px){
+	.secondary-photo{
+		width: 100%;
+	}
+	.dance_way__pole_dance{
+		height: 45%;
+		width: 45%;
+		background-size: contain;
+    	right: 10%;
+	}
+	.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
+	    width: calc(100%);
+	}
+	.mdl-cell--12-col-tablet.mdl-cell--12-col-phone {
+	    width: calc(100%);
+	}
+	.drawer-header{
+		display: none;
+	}
+	.drawer .navigation{
+		margin-top: 20px;
+	}
+	.owl-controls{
+		bottom: 80px !important;
+	}
+	#sb_instagram{
+		display: inline-block;
+	}
+	#sb_instagram .sb_instagram_header, #sb_instagram #sbi_images{
+		padding-right: 0 !important;
+	}
+	.shedule_item{
+		padding: 12% 4.5% 0% 4.5%;
+	}
+	.maps {
+	    min-height: 60vh;
+	}
+	.games-item__secondary-item {
+	    height: 100vw;
+	}
+	.get_study .get_study__form{
+		top: 10%;
+	}
+}
