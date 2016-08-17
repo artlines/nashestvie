@@ -15,6 +15,9 @@
     <?wp_head(); ?>
   </head>
   <body <?body_class(); ?>>
+    <div class="l-preloader" id="preloader">
+      <div class="preloader__icon"></div>
+    </div>
     <div class="layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
       <div class="drawer mdl-layout__drawer">
         <header class="drawer-header">

@@ -170,4 +170,11 @@ jQuery(function($){
 	      $('.arrow-left').click();
 	    }
 	  });
+
+	$(window).on('load', function () {
+	    var preloader = $('#preloader'),
+	        spinner   = preloader.find('.preloader__icon');
+	    spinner.fadeOut();
+	    preloader.delay(350).fadeOut('slow');
+	});
 });
