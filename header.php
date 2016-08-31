@@ -32,9 +32,9 @@
         ));?>
           <div class="l-drawer__contacts">
             <div class="social_icons">
-              <a href="" class="social_icon instagram">
+              <a href="<?the_field('inst');?>" class="social_icon instagram">
               </a>
-              <a href="" class="social_icon vk">
+              <a href="<?the_field('vk');?>" class="social_icon vk">
               </a>
             </div>
             <a href="http://web.ra-kolibri.com/"><p class="copyright">сайт РАЗРАБОТАН РА КОЛИБРИ</p></a>

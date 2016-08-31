@@ -31,7 +31,7 @@ get_header(); ?>
         <p><?the_field('address_1');?></p>
         <a href="tel:<?the_field('phone_1');?>"><?the_field('phone_1');?></a></div>
       <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone address">
-        <p><?the_field('address_1');?></p>
+        <p><?the_field('address_2');?></p>
         <a href="tel:<?the_field('phone_2');?>"><?the_field('phone_2');?></a>
       </div>
     </div>
