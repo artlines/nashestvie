@@ -137,6 +137,14 @@
 		height: 55vw;
 	}
 }
+	@media (max-width: 900px){
+		.dance_way__pole_dance{
+			height: 40%;
+			width: 40%;
+			background-size: contain;
+	    	right: 10%;
+		}
+	}
 	@media (max-width: 480px){
 	.secondary-photo{
 		width: 100%;

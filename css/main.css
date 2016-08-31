@@ -202,6 +202,14 @@ table {
   background-size: cover !important;
 }
 
+.single .primary-photo {
+  background-size: contain !important;
+}
+
+.single main {
+  background-color: #191919;
+}
+
 .secondary-photo {
   height: 50vh;
   background-size: cover !important;
@@ -225,9 +233,9 @@ table {
 }
 
 .primary-photo:hover .is-hover, .secondary-photo:hover .is-hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
   opacity: 1;
 }
 
@@ -243,23 +251,20 @@ table {
   right: 0;
   bottom: 0;
   opacity: 0;
-  -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
-          transform: scale(1.5);
   transition: all .5s ease-in-out;
   z-index: 2;
 }
 
 .primary-photo .is-hover--no-scale, .secondary-photo .is-hover--no-scale {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .primary-photo .is-hover--no-scale:hover, .secondary-photo .is-hover--no-scale:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .primary-photo {
@@ -906,6 +911,15 @@ table.dataTable.cell-border tbody th, table.dataTable.cell-border tbody td {
   }
   .games-item__secondary-item {
     height: 55vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .dance_way__pole_dance {
+    height: 40%;
+    width: 40%;
+    background-size: contain;
+    right: 10%;
   }
 }
 
